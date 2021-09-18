@@ -77,7 +77,7 @@ export default function Chats() {
     <div className='chats-page'>
       <div className='nav-bar'>
         <div className='logo-tab'>
-          Unichat
+          EMA
         </div>
 
         <div onClick={handleLogout} className='logout-tab'>
@@ -87,7 +87,7 @@ export default function Chats() {
 
       <ChatEngine 
         height='calc(100vh - 66px)'
-        projectID='784bdb9e-8724-4f63-8ab6-3c10d59f74a7'
+        projectID='6c34a123-43fc-41f8-bd5c-fd618ab8b31a'
         userName={user.email}
         userSecret={user.uid}
       />
